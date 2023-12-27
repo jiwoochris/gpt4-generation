@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(description="Process dataset and save GPT-4 res
 parser.add_argument("--input", default= "input_file.jsonl", type=str, help="Path to the input dataset file.")
 parser.add_argument("--output", default= "output_file", type=str, help="Path to the output file where GPT-4 responses will be saved.")
 parser.add_argument("--prompter", default= "gpt4", type=str, help="Specify the prompter to use.")
-parser.add_argument("--column_name", default= "output", type=str, help="Specify the column_name to use for prompter.")
+parser.add_argument("--column_name", default= "question", type=str, help="Specify the column_name to use for prompter.")
 parser.add_argument("--type", default="", type=str, help="Specify the type")
 
 
